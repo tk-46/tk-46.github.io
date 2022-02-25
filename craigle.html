@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width-device-width, initial-scale=1">
+        <link rel="icon" href="C.png" sizes="400x400">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:title" content="CRAIGLE">
+        <meta property="og:site_name" content="CRAIGLE">
+
+        <link rel = "stylesheet" href = "style.css">
+        <script src="confetti.js"></script>
+        <script src="craigle.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+        />
+
+        <title>CRAIGLE</title>
+
+
+    </head>
+    <body>
+        <div id="body">
+            <div id ="main">
+                <div id = "help-menu" class="modal">
+                    <div class="help-content">
+                        <span id="close">&times;</span>
+                        <p>Guess the first six letters of the name of the element on the periodic table. 
+                            If the name of the element is shorter than six letters, leave the tiles blank or use the space key (the blank button on the keyboard) at the end of the name.
+                            <br>Other than the above, normal WORDLE rules apply.
+                        </p>
+                      </div>
+                </div>
+                <header>
+                    <div id = "alert"></div>
+                    <button id="help-button">?</button>
+
+                    <h1 class="title">CRAIGLE</h1>
+
+                </header>
+                <div id = "grid-container">
+                    <div id = "grid-craigle">
+                      
+                    </div>
+                </div>
+
+                <div id="keyboard-container">
+                    <div class="keyboard-row">
+                        <button data-key="q" id = "q">q</button>
+                        <button data-key="w" id = "w">w</button>
+                        <button data-key="e" id = "e">e</button>
+                        <button data-key="r" id="r">r</button>
+                        <button data-key="t" id="t">t</button>
+                        <button data-key="y" id="y">y</button>
+                        <button data-key="u" id="u">u</button>
+                        <button data-key="i" id="i">i</button>
+                        <button data-key="o" id="o">o</button>
+                        <button data-key="p" id="p">p</button>
+                    </div>
+                    <div class="keyboard-row">
+                        <button data-key="a" id="a">a</button>
+                        <button data-key="s" id="s">s</button>
+                        <button data-key="d" id="d">d</button>
+                        <button data-key="f" id="f">f</button>
+                        <button data-key="g" id="g">g</button>
+                        <button data-key="h" id="h">h</button>
+                        <button data-key="j" id="j">j</button>
+                        <button data-key="k" id="k">k</button>
+                        <button data-key="l" id="l">l</button>
+                        <button data-key=" " id=" "> </button>
+
+                    </div>
+                    <div class="keyboard-row">
+                        <button data-key="enter" class="wide-button">Enter</button>
+
+                        <button data-key="z" id="z">z</button>
+                        <button data-key="x" id="x">x</button>
+                        <button data-key="c" id="c">c</button>
+                        <button data-key="v" id="v">v</button>
+                        <button data-key="b" id="b">b</button>
+                        <button data-key="n" id="n">n</button>
+                        <button data-key="m" id="m">m</button>
+                        <button data-key="del" class="wide-button">Del</button>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+</html>
