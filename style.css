@@ -149,8 +149,8 @@ header {
 
 .block {
     border: 2px solid #031e44;
-    min-width: 12vw;
-    min-height: 6.5vh;
+    min-width: 10vw;
+    min-height: 5.5vh;
     font-size: 43px;
     font-weight: bold;
     color: #ce5509;
