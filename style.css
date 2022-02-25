@@ -10,6 +10,7 @@ html, body {
 
 #body {
     display: flex;
+    padding:2px;
     background-color: #0e1927;
     height: 100%;
     align-items: center;
@@ -18,7 +19,6 @@ html, body {
 
 #main {
     width: 100%;
-    max-width: 500px;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ header {
 
 #grid {
     display: grid;
-    grid-gap: 30px;
+    grid-gap: 20px;
     grid-template-columns: 1fr 0.75fr;
 }
 
@@ -141,8 +141,8 @@ header {
 
 .block {
     border: 2px solid #031e44;
-    min-width: 50px;
-    min-height: 50px;
+    min-width: 10vw;
+    min-height: 8vh;
     font-size: 43px;
     font-weight: bold;
     color: #ce5509;
@@ -182,7 +182,7 @@ header {
 }
 
 .keyboard-row button.wide-button {
-    flex-grow: 1.2;
+    flex-grow: 1;
 }
 
 .modal {
