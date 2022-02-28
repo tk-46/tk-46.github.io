@@ -28,6 +28,29 @@ document.addEventListener("DOMContentLoaded", () => {
     const toPrint = names[randNums[daysPassed]];
     const word = toPrint.padEnd(6);
 
+    document.addEventListener("keydown", function(event) {
+ 
+        // Check event keycode for what to do
+        if (done) {
+            return;
+        }
+
+        const key = event.key.toLowerCase();
+
+        // Check that a useable key was entered
+        if (key === "backspace") {
+            deleteLetter(); 
+            return;
+        } else if (key === "enter") {
+            submitWord();
+            return;
+        } else if (key.length === 1 && key.match(/[a-z]/i) || key === " ") {
+            updateGuessed(key);
+        } 
+
+    });
+
+
     function updateGuessed(letter) {
         if (guessed.length < 6) {
             letterEl = document.getElementById(String(guessedNum * 6 + guessed.length + 1)).textContent = letter;
