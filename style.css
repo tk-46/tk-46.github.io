@@ -92,8 +92,9 @@ header {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-
+    margin-left: 18px;
     position: relative;
+    border: 0;
 
     background-color: #ce5509;
     color:#0e1927;
@@ -149,7 +150,7 @@ header {
 }
 
 .block {
-    border: 2px solid #031e44;
+    border: 2px solid #90b3e5;
     min-width: 10vw;
     min-height: 5.5vh;
     font-size: 43px;
