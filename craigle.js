@@ -205,6 +205,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let block = document.createElement("div");
             block.classList.add("block");
             block.classList.add("animate__animated");
+            block.classList.add("craigle-block");
 
             block.setAttribute("id", i + 1);
 
