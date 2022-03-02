@@ -154,7 +154,7 @@ header {
     border: 2px solid #90b3e5;
     min-width: 9vw;
     min-height: 7.3vh;
-    font-size: 6vh;
+    font-size: 5.2vh;
     font-weight: bold;
     color: #ce5509;
     text-transform: uppercase;
@@ -166,7 +166,7 @@ header {
 }
 
 .craigle-block {
-  min-width:10vw;
+  min-width:11.5vw;
 }
 /*
 #keyboard-container {
